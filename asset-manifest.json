@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/typescript-shopping-cart/static/js/main.e76c132f.js",
+    "index.html": "/typescript-shopping-cart/index.html",
+    "main.e76c132f.js.map": "/typescript-shopping-cart/static/js/main.e76c132f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e76c132f.js"
+  ]
+}
