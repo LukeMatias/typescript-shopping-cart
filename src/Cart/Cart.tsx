@@ -16,7 +16,7 @@ const Cart: React.FC<Props> = ({ cartItems, addToCart, removeFromCart }) => {
         items.reduce((acc: number, item) => acc + item.amount * item.price, 0)
     return (
         <Wrapper>
-            <h2>Your Shopping Cart</h2><button>Back</button>
+            <h2>Your Shopping Cart</h2>
             {cartItems.length === 0 ? <p>No items on cart.</p> : null}
             {cartItems.map(item => (
                 <CartItem
